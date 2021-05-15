@@ -13,7 +13,7 @@ If you want to run two or more at a same time, you can do that as well.
 **Step-2 Select the platform as a Ubuntu**
 
 If you choose *Noetic ROS distribution*, you will see the result like this. 
-[<img target="_blank" src="images/platform.PNG" >]()
+<img target="_blank" src="images/platform.PNG" >
 <br/>
 <br/>
 
