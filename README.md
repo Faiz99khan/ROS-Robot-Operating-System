@@ -1,4 +1,20 @@
 # ROS-Robot-Operating-System
+**What is ROS**
+
+According to *wiki.ros.org*
+
+ROS is an **open-source, meta-operating system for your robot.** It provides the services you would expect from an operating system, including hardware abstraction, low-level device control, implementation of commonly-used functionality, message-passing between processes, and package management. It also provides tools and libraries for obtaining, building, writing, and running code across multiple computers. ROS is similar in some respects to 'robot frameworks,' such as Player, YARP, Orocos, CARMEN, Orca, MOOS, and Microsoft Robotics Studio.
+
+It is defined in other words at https://www.ros.org/about-ros/
+
+ROS is a flexible framework for writing robot software. It is a collection of tools, libraries, and conventions that aim to simplify the task of creating complex and robust robot behavior across a wide variety of robotic platforms.
+
+<img src="images/ros.png" width="500">
+
+**Why**
+
+
+
 
 # Installation on Ubuntu
 **Step-1 Choose a ROS distribution**
