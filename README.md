@@ -9,11 +9,30 @@ It is defined in other words at https://www.ros.org/about-ros/
 
 ROS is a flexible framework for writing robot software. It is a collection of tools, libraries, and conventions that aim to simplify the task of creating complex and robust robot behavior across a wide variety of robotic platforms.
 
-<img src="images/ros.png" width="500">
+<img src="images/ros.png" width="500"> <br/>
+[Image credit](https://towardsdatascience.com/what-why-and-how-of-ros-b2f5ea8be0f3)
+<br/>
+<br/>
 
 **Why**
 
+Because creating truly robust, general-purpose robot software is hard. From the robot's perspective, problems that seem trivial to humans often vary wildly between instances of tasks and environments. Dealing with these variations is so hard that no single individual, laboratory, or institution can hope to do it on their own.
+<br/>
+<br/>
 
+**Goals**
+
+ The primary goal of ROS is to support code *reuse* in robotics research and development
+ 
+ In support of this primary goal of sharing and collaboration, there are several other goals of the ROS framework:
+
+*Thin*:  ROS is designed to be as thin as possible -- we won't wrap your main() -- so that code written for ROS can be used with other robot software frameworks. A corollary to this is that ROS is easy to integrate with other robot software frameworks: ROS has already been integrated with OpenRAVE, Orocos, and Player. <br/>
+*ROS-agnostic libraries*:  the preferred development model is to write ROS-agnostic libraries with clean functional interfaces.<br/>
+*Language independence*:  the ROS framework is easy to implement in any modern programming language. We have already implemented it in Python, C++, and Lisp, and we have experimental libraries in Java and Lua. <br/>
+*Easy testing*:  ROS has a builtin unit/integration test framework called rostest that makes it easy to bring up and tear down test fixtures.
+*Scaling*:  ROS is appropriate for large runtime systems and for large development processes.
+
+for more information click [here](http://wiki.ros.org/ROS/Introduction) 
 
 
 # Installation on Ubuntu
