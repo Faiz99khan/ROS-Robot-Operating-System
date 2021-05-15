@@ -1,5 +1,5 @@
 # ROS-Robot-Operating-System
-**What is ROS**
+**What is ROS ?**
 
 According to *wiki.ros.org*
 
@@ -24,16 +24,39 @@ Because creating truly robust, general-purpose robot software is hard. From the 
 
  The primary goal of ROS is to support code *reuse* in robotics research and development
  
- In support of this primary goal of sharing and collaboration, there are several other goals of the ROS framework:
-
-*Thin*:  ROS is designed to be as thin as possible -- we won't wrap your main() -- so that code written for ROS can be used with other robot software frameworks. A corollary to this is that ROS is easy to integrate with other robot software frameworks: ROS has already been integrated with OpenRAVE, Orocos, and Player. <br/>
-*ROS-agnostic libraries*:  the preferred development model is to write ROS-agnostic libraries with clean functional interfaces.<br/>
-*Language independence*:  the ROS framework is easy to implement in any modern programming language. We have already implemented it in Python, C++, and Lisp, and we have experimental libraries in Java and Lua. <br/>
-*Easy testing*:  ROS has a builtin unit/integration test framework called rostest that makes it easy to bring up and tear down test fixtures.
-*Scaling*:  ROS is appropriate for large runtime systems and for large development processes.
+ In support of this primary goal of sharing and collaboration, there are several other goals of the ROS framework: <br/>
+- *Thin*:  ROS is designed to be as thin as possible -- we won't wrap your main() -- so that code written for ROS can be used with other robot software frameworks. A corollary to this is that ROS is easy to integrate with other robot software frameworks: ROS has already been integrated with OpenRAVE, Orocos, and Player. <br/>
+- *ROS-agnostic libraries*:  the preferred development model is to write ROS-agnostic libraries with clean functional interfaces.<br/>
+- *Language independence*:  the ROS framework is easy to implement in any modern programming language. We have already implemented it in Python, C++, and Lisp, and we have experimental libraries in Java and Lua. <br/>
+- *Easy testing*:  ROS has a builtin unit/integration test framework called rostest that makes it easy to bring up and tear down test fixtures.
+- *Scaling*:  ROS is appropriate for large runtime systems and for large development processes.
 
 for more information click [here](http://wiki.ros.org/ROS/Introduction) 
+<br/>
+<br/>
 
+**What is Gazebo ?**
+
+Gazebo is a 3D dynamic simulator with the ability to accurately and efficiently simulate populations of robots in complex indoor and outdoor environments. While similar to game engines, Gazebo offers physics simulation at a much higher degree of fidelity, a suite of sensors, and interfaces for both users and programs.
+
+Typical uses of Gazebo include:
+
+- testing robotics algorithms,
+
+- designing robots,
+
+- performing regression testing with realistic scenarios
+
+A few key features of Gazebo include:
+
+- multiple physics engines,
+
+- a rich library of robot models and environments,
+
+- a wide variety of sensors,
+
+- convenient programmatic and graphical interfaces
+<br/>
 
 # Installation on Ubuntu
 **Step-1 Choose a ROS distribution**
