@@ -17,7 +17,7 @@ If you choose *Noetic ROS distribution*, you will see the result like this.
 <br/>
 <br/>
 
-**Step-3.1 Configure your Ubuntu repositoriesu**
+**Step-3.1 Configure your Ubuntu repositories**
 
 Configure your Ubuntu repositories to allow "restricted," "universe," and "multiverse." You can follow [the Ubuntu guide for instructions](https://help.ubuntu.com/community/Repositories/Ubuntu) on doing this.
 <br/>
